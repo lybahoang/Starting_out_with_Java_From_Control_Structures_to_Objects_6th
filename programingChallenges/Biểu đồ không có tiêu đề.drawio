@@ -1,0 +1,108 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.0">
+  <diagram name="PC7" id="CiEKCURwHnuyaEm2gczD">
+    <mxGraphModel dx="786" dy="586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7ptnaPc7RTxoH0-Y8gS6-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="7ptnaPc7RTxoH0-Y8gS6-3" target="7ptnaPc7RTxoH0-Y8gS6-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ptnaPc7RTxoH0-Y8gS6-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7ptnaPc7RTxoH0-Y8gS6-3" target="7ptnaPc7RTxoH0-Y8gS6-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7ptnaPc7RTxoH0-Y8gS6-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="7ptnaPc7RTxoH0-Y8gS6-3" target="7ptnaPc7RTxoH0-Y8gS6-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7ptnaPc7RTxoH0-Y8gS6-3" value="Ask the user to enter the amount of a purchase" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7ptnaPc7RTxoH0-Y8gS6-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="7ptnaPc7RTxoH0-Y8gS6-5" target="7ptnaPc7RTxoH0-Y8gS6-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ptnaPc7RTxoH0-Y8gS6-5" value="Calculate the state sales tax" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7ptnaPc7RTxoH0-Y8gS6-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="7ptnaPc7RTxoH0-Y8gS6-6" target="7ptnaPc7RTxoH0-Y8gS6-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7ptnaPc7RTxoH0-Y8gS6-6" value="Calculate the county sales tax" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7ptnaPc7RTxoH0-Y8gS6-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="7ptnaPc7RTxoH0-Y8gS6-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ptnaPc7RTxoH0-Y8gS6-8" value="Calculate the total of the sale" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7ptnaPc7RTxoH0-Y8gS6-11" value="Display the purchase, state sales tax, county sales tax an total sales" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="270" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ovWg93OM9do_W1vNOOUL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ovWg93OM9do_W1vNOOUL-1" target="ovWg93OM9do_W1vNOOUL-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ovWg93OM9do_W1vNOOUL-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="360" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ovWg93OM9do_W1vNOOUL-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ovWg93OM9do_W1vNOOUL-3" target="ovWg93OM9do_W1vNOOUL-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ovWg93OM9do_W1vNOOUL-3" value="Declare some name constants for tax percentages" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="170" y="350" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ovWg93OM9do_W1vNOOUL-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ovWg93OM9do_W1vNOOUL-5" target="ovWg93OM9do_W1vNOOUL-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ovWg93OM9do_W1vNOOUL-5" value="Get the purchase amount" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="360" y="355" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ovWg93OM9do_W1vNOOUL-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ovWg93OM9do_W1vNOOUL-8" target="ovWg93OM9do_W1vNOOUL-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="595" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ovWg93OM9do_W1vNOOUL-8" value="Calculate the state sales tax" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="540" y="352.5" width="110" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="ovWg93OM9do_W1vNOOUL-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ovWg93OM9do_W1vNOOUL-10" target="ovWg93OM9do_W1vNOOUL-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ovWg93OM9do_W1vNOOUL-10" value="Calculate the county sales tax" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="545" y="450" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ovWg93OM9do_W1vNOOUL-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ovWg93OM9do_W1vNOOUL-12" target="ovWg93OM9do_W1vNOOUL-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ovWg93OM9do_W1vNOOUL-12" value="calculate the total purchase" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="360" y="450" width="104" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ovWg93OM9do_W1vNOOUL-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ovWg93OM9do_W1vNOOUL-14" target="ovWg93OM9do_W1vNOOUL-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ovWg93OM9do_W1vNOOUL-14" value="Display results" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="170" y="430" width="115" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ovWg93OM9do_W1vNOOUL-16" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="450" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
