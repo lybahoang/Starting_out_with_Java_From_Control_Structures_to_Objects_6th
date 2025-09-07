@@ -1,5 +1,5 @@
 /**
-    This shows my solution to the programming challenge 6 in chapter 2.
+    This shows my solution to the programming challenge 7 in chapter 2.
     Book: Starting out with Java: From Control structures to Objects (6th).
     Date: 07 September 2025.
  */
