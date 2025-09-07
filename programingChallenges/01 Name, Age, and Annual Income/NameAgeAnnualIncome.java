@@ -1,6 +1,6 @@
 /**
  * This program shows my solution to the programming challenge 1 in the book named
- * "Starting out with Java: From Control Structures to Objects (5th)".
+ * "Starting out with Java: From Control Structures to Objects (6th)".
  * Date: 06 September 2025.
  */
 
