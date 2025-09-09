@@ -10,7 +10,7 @@ public class PenniesForPay
     public static void main(String[] args)
     {
         int numOfDays;                      // The number of worked days.
-        double totalPayInPennies = 0;       // An accumulator to hold the total pay in pennies
+        double totalPayInPennies = 0.0;     // An accumulator to hold the total pay in pennies
         double salariesInPennies;           // To hold the salary each day in pennies
         final int PENNY_PER_DOLLAR = 100;   // Conversion factor.
 
@@ -35,7 +35,7 @@ public class PenniesForPay
         // Display the table of salaries during the period of time and
         // also update the accumulator.
         System.out.println("Days\tSalaries ($)");
-        System.out.println("---------------");
+        System.out.println("--------------------");
         for (int count = 1; count <= numOfDays; count++)
         {
             // Calculate the salaries for the corresponding day.
@@ -49,7 +49,7 @@ public class PenniesForPay
         }
 
         // Display the total pay.
-        System.out.println("------------------");
+        System.out.println("--------------------");
         System.out.println("Total pay: $" + totalPayInPennies / PENNY_PER_DOLLAR);
     }
 }
