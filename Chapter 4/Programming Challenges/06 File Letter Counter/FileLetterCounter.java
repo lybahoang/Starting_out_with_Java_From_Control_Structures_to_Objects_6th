@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.Scanner;
 
 /**
- * This program shows my solution to the programming challenge 5 chapter 4.
+ * This program shows my solution to the programming challenge 6 chapter 4.
  * Booke: Starting out with Java: From Control Structures to Objects (6th).
  * Date: 09 September 2025.
  */
