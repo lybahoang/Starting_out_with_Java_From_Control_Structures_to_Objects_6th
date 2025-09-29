@@ -1,5 +1,5 @@
-import javax.swing.*;       // Needed for Swing classes
-import java.awt.event.*;    // Needed for ActionListener interface.
+import java.awt.event.*;       // Needed for Swing classes
+import javax.swing.*;    // Needed for ActionListener interface.
 
 /**
     The KiloConverter class displays a JFrame that lets the user
