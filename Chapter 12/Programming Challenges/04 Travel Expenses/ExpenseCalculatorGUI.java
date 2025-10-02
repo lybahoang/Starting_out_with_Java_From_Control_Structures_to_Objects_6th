@@ -19,7 +19,6 @@ public class ExpenseCalculatorGUI extends JFrame
     private TextFieldPanel lodgingPanel;        // Label for lodging fee.
     private JButton calcButton;                 // Calculate button.
     private JPanel buttonPanel;                 // Panel for Calculate button.
-    private JPanel inputPanel;                  // Panel hold all text fields.
 
     /**
         This constructor sets up the frame of the GUI.
@@ -32,15 +31,22 @@ public class ExpenseCalculatorGUI extends JFrame
         // Specify what happens when the close button is clicked.
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        // Set a GridLayout with 2 rows and 1 column to the frame.
-        setLayout(new GridLayout(2, 1));
+        // Set a GridLayout with 9 rows and 1 column to the frame.
+        setLayout(new GridLayout(9, 1));
 
         // Build the panels.
-        buildInputPanel();
+        buildTextFieldPanels();
         buildButtonPanel();
 
         // Add the two panels to the content pane.
-        add(inputPanel);
+        add(dayPanel);
+        add(airfarePanel);
+        add(carRentalPanel);
+        add(milePanel);
+        add(parkingPanel);
+        add(taxiPanel);
+        add(registrationPanel);
+        add(lodgingPanel);
         add(buttonPanel);
 
         // Pack the contents of the window and display it.
@@ -49,17 +55,10 @@ public class ExpenseCalculatorGUI extends JFrame
     }
     
     /**
-        The buildInputPanel method adds panels that hold text fields into a
-        panel.
+        The buildTextFieldPanels method builds panels of text fields.
      */
-    private void buildInputPanel()
+    private void buildTextFieldPanels()
     {
-        // Create the input panel.
-        inputPanel = new JPanel();
-
-        // Set a GridLayout with 8 rows and 1 column to the input panel.
-        inputPanel.setLayout(new GridLayout(8, 1));
-
         // Create panels of text fields.
         dayPanel = new TextFieldPanel(
             "Number of days: ", 10);
@@ -80,16 +79,6 @@ public class ExpenseCalculatorGUI extends JFrame
         lodgingPanel = new TextFieldPanel(
             "Lodging charges ($): ", 10
         );
-
-        // Add panels of text fields to inputPanel.
-        inputPanel.add(dayPanel);
-        inputPanel.add(airfarePanel);
-        inputPanel.add(carRentalPanel);
-        inputPanel.add(milePanel);
-        inputPanel.add(parkingPanel);
-        inputPanel.add(taxiPanel);
-        inputPanel.add(registrationPanel);
-        inputPanel.add(lodgingPanel);
     }
 
     /**
