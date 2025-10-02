@@ -1,9 +1,7 @@
 import java.awt.FlowLayout;
-import java.awt.TextField;
-import javax.swing.JPanel;
 import javax.swing.JLabel;
+import javax.swing.JPanel;
 import javax.swing.JTextField;
-import java.awt.GridLayout;
 
 /**
     The TextFieldPanel class allows user to enter input.
