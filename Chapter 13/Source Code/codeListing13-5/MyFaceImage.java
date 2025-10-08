@@ -69,6 +69,12 @@ public class MyFaceImage extends JFrame
         // Create a button.
         button = new JButton("Get Image");
 
+        // Set a mnemonic to the button with the key G.
+        button.setMnemonic(KeyEvent.VK_G);
+
+        // Set a tool tip text to the button.
+        button.setToolTipText("Click here to get the image");
+
         // Create an ImageIcon to open the icon.
         ImageIcon icon = new ImageIcon("point.png");
         button.setIcon(icon);
