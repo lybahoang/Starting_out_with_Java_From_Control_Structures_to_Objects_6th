@@ -1,30 +1,30 @@
+
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-
 /**
-    This class demonstrates how to use an ImageIcon and a
-    JLabel to display an image.
+    This class demonstrates how to use an ImageIcon and
+    a JLabel to display an image.
  */
 
-public class MyCatImage extends JFrame
+public class MyFaceImage extends JFrame
 {
-    private JPanel imagePanel;      // A panel to hold an image.
-    private JPanel buttonPanel;     // A panel to hold a button.
     private JLabel imageLabel;      // To show an image.
-    private JButton button;         // To get an image.
+    private JPanel imagePanel;      // To hold the label.
+    private JPanel buttonPanel;     // To hold a button.
+    private JButton button;         // To show an image.
 
     /**
-        Constructor.
+        This constructor sets up the main frame of the GUI.
      */
-    public MyCatImage()
+    public MyFaceImage()
     {
-        // Set the title of the window.
-        setTitle("My Cat");
+        // Set the title of the frame.
+        this.setTitle("My face");
 
         // Specify an action for the close button.
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         // Create a BorderLayout manager.
         setLayout(new BorderLayout());
@@ -34,25 +34,25 @@ public class MyCatImage extends JFrame
         buildButtonPanel();
 
         // Add the panels to the content pane.
-        add(imagePanel);
-        add(buttonPanel);
+        add(imagePanel, BorderLayout.CENTER);
+        add(buttonPanel, BorderLayout.SOUTH);
 
         // Pack and display the window.
         pack();
         setVisible(true);
     }
-    
+
     /**
-        The buildImagePanel method adds a label to a panel.
+        The buildImagePanel method adds a label to the panel.
      */
     private void buildImagePanel()
     {
-        // Create a panel.
+        // Create a panel to hold a label.
         imagePanel = new JPanel();
 
         // Create a label.
-        imageLabel = new JLabel("Click the button to see an image " +
-                           "of my cat.");
+        imageLabel = new JLabel("Click the button to " +
+        "see an image of my face.");
 
         // Add the label to the panel.
         imagePanel.add(imageLabel);
@@ -63,19 +63,17 @@ public class MyCatImage extends JFrame
      */
     private void buildButtonPanel()
     {
-        // Create a panel.
+        // Create a panel to hold a button.
         buttonPanel = new JPanel();
-
+        
         // Create a button.
         button = new JButton("Get Image");
 
-        // Get the smiley face image.
-        ImageIcon smileyImage = new ImageIcon("Smiley.png");
-
-        // Set the smiley face image to the button.
-        button.setIcon(smileyImage);
-
-        // Register an action listener with the button.
+        // Create an ImageIcon to open the icon.
+        ImageIcon icon = new ImageIcon("point.png");
+        button.setIcon(icon);
+        
+        // Register an action listener to the button.
         button.addActionListener(new ButtonListener());
 
         // Add the button to the panel.
@@ -84,17 +82,17 @@ public class MyCatImage extends JFrame
 
     /**
         Private inner class that handles the event when the user
-        clicks the button.
+        clicks the Get Image button.
      */
     private class ButtonListener implements ActionListener
     {
         public void actionPerformed(ActionEvent event)
         {
             // Read the image file into an ImageIcon object.
-            ImageIcon catImage = new ImageIcon("myCat.jpg");
+            ImageIcon myFace = new ImageIcon("myFace.png");
 
             // Display the image in the label.
-            imageLabel.setIcon(catImage);
+            imageLabel.setIcon(myFace);
 
             // Remove the text from the label.
             imageLabel.setText(null);
@@ -106,10 +104,10 @@ public class MyCatImage extends JFrame
     }
 
     /**
-        The main method creates an instance of the MyCatImage
+        The main method creates an instance of the MyFaceImage
         class, which causes it to display its window.
      */
     public static void main(String[] args) {
-        new MyCatImage();
+        new MyFaceImage();
     }
 }
